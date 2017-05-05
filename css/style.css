@@ -1,5 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css?family=Palanquin|Raleway');
+
+#name{
+  font-size: 50px;
+  position:relative;
+  left:0px;
+  top:0px;
+  padding:0px;
+}
 
 /nav ul {
   margin: 0;
@@ -35,7 +42,6 @@ li {
   list-style-position: outside;
 }
 
-
 nav {
   padding-left: 10px;
   padding-bottom:10px;
@@ -44,8 +50,7 @@ nav {
 nav a:link {
   text-decoration-color: none;
   color: black;
-  padding: 10px;
-  /*background-color: green;*/
+  padding: 0px; /*used to be 10*/
 }
 
 nav a: hover {
@@ -67,6 +72,12 @@ section {
   margin: 20px;
 }
 
+#navi-bar{
+    position:relative;
+    left:-12px;
+    top:-10px;
+}
+
 #address {
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
@@ -76,14 +87,6 @@ section {
 #center {
 	width: 960px;
 	margin: 0 auto;
-}
-
-#name {
-	position:relative;
-	left:20px;
-  font-size: 50px;
-  color: rgb(0,0,0);
-  margin-bottom: 0;
 }
 
 #asmae-pic {
@@ -130,4 +133,278 @@ a:hover {
 
 a:active {
     color: rgb(42, 13, 226);
+}
+
+#left-column-writing {
+  position:relative;
+  float:left;
+  clear:left;
+  width: 300px;
+  /*background-color:#FF0000;*/
+}
+
+#right-column-writing {
+  position:relative;
+  float:right;
+  width: 300px;
+  /*background-color:#BF2000;*/
+}
+
+#center-column-writing {
+  position:relative;
+  width: 300px;
+  height: 200px;
+    margin: auto;
+  /*background-color:#BF2000;*/
+}
+
+#textbox{
+  height:201px;
+  width:340px;
+  /*background-color:#282828;*/
+  word-wrap:break-word;
+}
+
+#aboutpic{
+  position:relative;
+  left:0px;
+  width:300px;
+}
+
+#description1{
+    position:relative;
+    top:0px;
+    right:-100px;
+    font-size: 16px;
+}
+
+#description2{
+    position:relative;
+    top:156px;
+    right:-100px;
+    font-size: 16px;
+}
+
+#about-distraction{
+    position:relative;
+    top:0px;
+    right:-80px;
+    font-size: 16px;
+}
+
+#about-me{
+    position:relative;
+    top:0px;
+    left:-160px;
+    font-size: 16px;
+}
+
+a.hidden-box-text {
+    color: white;
+}
+
+.hidden-box-text{
+  position:relative;
+  top:70px;
+}
+
+.hidden-box {
+  position:absolute;
+  opacity: 0;
+  top:4px;
+  left:4px;
+  height:201px;
+  width:301px;
+  background-color:#282828;
+  text-align:center;
+}
+
+.screenshot{
+ height:200px;
+  width:300px;
+  border: 4px solid #ccc;
+  border-color: rgb(255, 204, 186);
+}
+
+#name-video{
+  font-size: 50px;
+}
+
+#hidden-box1 {
+  top:4px;
+  left:4px;
+}
+
+#hidden-box2 {
+  top:220px;
+  left:4px;
+}
+
+#hidden-box3 {
+  top:436px;
+  left:4px;
+}
+
+#hidden-box4 {
+  top:4px;
+  left:4px;
+}
+
+#hidden-box5 {
+  top:220px;
+  left:4px;
+}
+
+#hidden-box6 {
+  top:436px;
+  left:4px;
+}
+
+#hidden-box7 {
+  top:4px;
+  left:4px;
+}
+
+#hidden-box8 {
+  top:220px;
+  left:4px;
+}
+
+#hidden-box9 {
+  top:436px;
+  left:4px;
+}
+
+.index-menu-text{
+  position:relative;
+  top:64px;
+  margin:auto;
+  font-size:30px;
+  text-decoration: none;
+}
+
+#index-name{
+
+  font-size: 50px;
+
+  position:relative;
+  left:22px;
+  top:10px;
+  padding:0px;
+}
+
+a.index-menu-text:link {
+    color: white;
+}
+
+a.index-menu-text:visited {
+    color: white;
+}
+
+a.index-menu-text:hover {
+    color: white;
+}
+
+a.index-menu-text:active {
+    color: white;
+}
+
+.image{
+  position:absolute;
+  top: 0px;
+  left: 0px;
+/*  height:240px;
+  width:440px;*/
+  /*margin:auto;*/
+}
+
+.contact-about{
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+    position:absolute;
+  top:64px;
+  font-size: 28px;
+}
+
+#bar{
+  color: black;
+  right:271px;
+}
+
+#contact{
+  color: black;
+  right:170px;
+}
+
+#about{
+  color: black;
+  right:280px;
+
+}
+
+#hidden-contact{
+  position:absolute;
+right:170px;
+  top:90px;
+  display:none;
+    /*color: black;*/
+
+  /*background-color:red;*/
+}
+
+
+.index-menu-box{
+    height:200px;
+  width:400px;
+  position:relative;
+  text-align:center
+}
+
+@media print {
+  header nav {
+    display: none;
+  }
+  #asmae-pic{
+    display: none;
+  }
+  #address{
+    position:relative;
+    left:10px;
+  }
+  #name{
+    left:10px;
+    top:0px;
+    padding:0px;
+    margin:0px;
+  }
+  a:link {
+      color: black;
+  }
+
+  a:visited {
+      color: black;
+  }
+
+  a:hover {
+      color: black;
+  }
+
+  a:active {
+      color: black;
+  }
+  section {
+    border: 2px solid #ccc;
+    border-color: black;
+    padding: 8px;
+    margin: 8px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size:10px;
+  }
+
+  li {
+    font-size:10px;
+  }
+
 }
